@@ -27,6 +27,7 @@ const socials = [
   },
 ];
 
+const resumeUrl = 'https://drive.google.com/file/d/1IpkqpcsfMwL384muhvVQ1cpPaK-2a0_m/view?usp=sharing';
 const Header = () => {
   const handleClick = (anchor) => () => {
     const id = `${anchor}-section`;
@@ -73,7 +74,7 @@ const Header = () => {
             <HStack spacing={8}>
               <a href="#aboutme-section" id="aboutme-link" onClick={handleClick('aboutme')}>About</a>
               <a href="#projects-section" id="projects-link" onClick={handleClick('projects')}>Projects</a>
-              <a href="#contactme-section" id="contact-link" onClick={handleClick('contactme')}>Contact</a>
+              <a href={resumeUrl} id="resume" target="_blank" noreferrer='true' noopener='true'>Resume</a>
             </HStack>
           </nav>
         </HStack>

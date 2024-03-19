@@ -17,7 +17,7 @@ function App() {
           <LandingSection />
           <AboutMeSection />
           <ProjectsSection />
-          <ContactMeSection />
+          {/* <ContactMeSection /> */}
           <Footer />
           <Alert />
         </main>

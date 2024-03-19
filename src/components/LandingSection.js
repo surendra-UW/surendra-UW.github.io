@@ -13,7 +13,7 @@ const LandingSection = () => (
     alignItems="center"
     isDarkBackground={false}
     backgroundColor="white"
-    bgGradient={"linear(to-tr, #aeeaff, #ffb6c1)"}
+    bgGradient={"linear(to-tr, #aeeaff, #E07E93)"}
   >
 
   <VStack>
@@ -24,7 +24,7 @@ const LandingSection = () => (
     </HStack>
     <div>{bio}</div>
   </Heading>
-  <Avatar src={require("../images/photo1.jpg")} alt="Surendra Profile Picture" size="2xl"/> 
+  <Avatar src={require("../images/passportpic.jpg")} alt="Surendra Profile Picture" size="2xl"/> 
   </VStack>
   </FullScreenSection>
 );
